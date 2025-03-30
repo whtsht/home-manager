@@ -16,6 +16,9 @@
     };
 
     initExtra = ''
+      bindkey -d
+      bindkey -e
+
       # コマンドのカラー表示を有効化
       autoload -U colors && colors
       
