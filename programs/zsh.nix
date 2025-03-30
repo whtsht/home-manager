@@ -16,7 +16,10 @@
     };
 
     initExtra = ''
+      # キーバインドをリセット
       bindkey -d
+      
+      # Emacsのキーバインドを有効化
       bindkey -e
 
       # コマンドのカラー表示を有効化
@@ -25,8 +28,8 @@
       # starshipの初期化
       eval "$(starship init zsh)"
 
-      # AutosuggestionのacceptをCtrl-iで実行
-      bindkey '^i' autosuggest-accept
+      # Autosuggestionの設定 Alt+fで補完を承認
+      bindkey '^[f' autosuggest-accept
     '';
   };
 } 
