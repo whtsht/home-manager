@@ -12,9 +12,7 @@
 
   home.packages = with pkgs; [
     # Development Tools
-    zsh
     docker
-    git
     gh
     direnv
     trash-cli
@@ -24,7 +22,6 @@
     unzip
     yt-dlp
     jq
-    neovim
     delta
    
     # Programming Language
