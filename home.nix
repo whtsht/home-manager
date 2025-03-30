@@ -24,6 +24,7 @@
     yt-dlp
     jq
     neovim
+    delta
    
     # Programming Language
     rustup
