@@ -5,7 +5,7 @@
     enableCompletion = true;
     
     history = {
-      size = 10000;
+      size = 1000;
       path = "$HOME/.zsh_history";
       ignoreDups = true;
       share = true;
@@ -21,6 +21,9 @@
       
       # starshipの初期化
       eval "$(starship init zsh)"
+
+      # AutosuggestionのacceptをCtrl-iで実行
+      bindkey '^i' autosuggest-accept
     '';
   };
 } 
