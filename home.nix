@@ -12,6 +12,7 @@
 
   home.packages = with pkgs; [
     # Development Tools
+    zsh
     docker
     git
     gh
