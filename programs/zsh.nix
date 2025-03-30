@@ -14,5 +14,13 @@
     shellAliases = {
       sw = "home-manager switch --flake .";
     };
+
+    initExtra = ''
+      # コマンドのカラー表示を有効化
+      autoload -U colors && colors
+      
+      # starshipの初期化
+      eval "$(starship init zsh)"
+    '';
   };
 } 
