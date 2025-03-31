@@ -1,4 +1,4 @@
-{ config, dotLoc, ... }:
+{ config, ... }:
 {
   programs.git = {
     enable = true;
@@ -24,6 +24,9 @@
       };
       pull = {
         ff = "only";
+      };
+      safe = {
+        directory = config.home.homeDirectory;
       };
     };
   };
