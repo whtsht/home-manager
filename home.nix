@@ -28,6 +28,7 @@
     rustup
     nodejs
     nodePackages.yarn
+    gcc
   ];
 
   home.sessionVariables = {
