@@ -5,7 +5,7 @@
     enable = true;
     shell = "${pkgs.zsh}/bin/zsh";
     plugins = [
-       pkgs.tmuxPlugins.tokyo-night-tmux
+       pkgs.tmuxPlugins.power-theme
     ];
     extraConfig = ''
       # ---------------------------------------------------------
@@ -22,10 +22,9 @@
       # key-bind
       # ---------------------------------------------------------
 
-      unbind C-b
       unbind C-[
       unbind C-i
-      set -g prefix C-Space
+      set -g prefix C-b
 
       bind s split-window -h -c "#{pane_current_path}"
       bind v split-window -v -c "#{pane_current_path}"
@@ -64,4 +63,4 @@
       set -wg mode-style bg=blue,fg=white
     '';
   };
-} 
+}
