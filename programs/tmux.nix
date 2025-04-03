@@ -22,33 +22,22 @@
       # key-bind
       # ---------------------------------------------------------
 
-      unbind C-[
-      unbind C-i
-      set -g prefix C-b
+      bind -n M-h select-pane -L
+      bind -n M-j select-pane -D
+      bind -n M-k select-pane -U
+      bind -n M-l select-pane -R
 
-      bind s split-window -h -c "#{pane_current_path}"
-      bind v split-window -v -c "#{pane_current_path}"
+      bind -n M-w new-window -c "#{pane_current_path}"
+      bind -n M-v split-window -v -c "#{pane_current_path}"
+      bind -n M-s split-window -h -c "#{pane_current_path}"
 
-      bind w new-window -c "#{pane_current_path}"
-      bind e kill-window\; \
-          move-window -r
-      bind r next-window
-      bind q previous-window
+      bind -n M-x kill-pane
+      bind -n M-e kill-window
 
-      bind h select-pane -L
-      bind l select-pane -R
-      bind j select-pane -D
-      bind k select-pane -U
+      bind -n M-q previous-window
+      bind -n M-r next-window
 
-      bind t choose-tree
-
-      bind -r H resize-pane -L 3
-      bind -r J resize-pane -D 3
-      bind -r K resize-pane -U 3
-      bind -r L resize-pane -R 3
-      bind x kill-pane
-
-      bind-key C-g display-panes
+      bind -n M-t resize-pane -Z
 
       # ---------------------------------------------------------
       # copy mode
