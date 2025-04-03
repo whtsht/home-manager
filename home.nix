@@ -18,17 +18,25 @@
     trash-cli
     awscli
     ssm-session-manager-plugin
+    ecsk
     zip
     unzip
-    yt-dlp
     jq
     delta
-   
+    claude-code
+    tree
+    lazygit
+    zoxide
+
     # Programming Language
     rustup
     nodejs
     nodePackages.yarn
     gcc
+    ruby
+
+    # Misc Tools
+    yt-dlp
   ];
 
   home.sessionVariables = {
