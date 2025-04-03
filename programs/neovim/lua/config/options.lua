@@ -23,7 +23,7 @@ local options = {
       eol = "↲",
     },
     background = "dark",
-    spell = false,
+    spell = true,
     spelllang = "en,cjk",
     splitbelow = true,
     splitright = true,
@@ -38,6 +38,8 @@ local options = {
     mapleader = " ",
   },
 }
+
+vim.cmd("colorscheme catppuccin-mocha")
 
 for scope, table in pairs(options) do
   for setting, value in pairs(table) do
