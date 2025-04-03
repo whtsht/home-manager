@@ -27,6 +27,7 @@
     tree
     lazygit
     zoxide
+    ollama-rocm
 
     # Programming Language
     rustup
