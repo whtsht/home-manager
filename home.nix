@@ -32,6 +32,7 @@
     # Programming Language
     rustup
     nodejs
+    bun
     nodePackages.yarn
     gcc
     ruby
