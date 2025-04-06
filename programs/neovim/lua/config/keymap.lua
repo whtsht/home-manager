@@ -15,6 +15,7 @@ set_keymap("n", "j", "gj", "Move down visual line")
 set_keymap("n", "k", "gk", "Move up visual line")
 set_keymap("n", "H", "^", "Move to start of line")
 set_keymap("n", "L", "$", "Move to end of line")
+set_keymap("n", "<leader>r", ":%s/\\r//g<CR>")
 
 -- Quickfix navigation
 set_keymap("n", "<leader>j", ":cnext<CR>", "Next quickfix item")
