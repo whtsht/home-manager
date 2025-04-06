@@ -30,11 +30,13 @@
     ollama-rocm
 
     # Programming Language
+    gcc
     rustup
     nodejs
-    bun
     nodePackages.yarn
-    gcc
+    bun
+    typescript-language-server
+    deno
     ruby
 
     # Misc Tools
