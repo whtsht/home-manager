@@ -39,7 +39,7 @@ local options = {
   },
 }
 
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme tokyonight-night")
 
 for scope, table in pairs(options) do
   for setting, value in pairs(table) do

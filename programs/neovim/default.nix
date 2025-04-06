@@ -5,7 +5,7 @@
     enable = true;
     plugins = with pkgs.vimPlugins; [
       # Colorscheme
-      catppuccin-nvim
+      tokyonight-nvim
       # Icons
       nvim-web-devicons
       # Fuzzy finder
