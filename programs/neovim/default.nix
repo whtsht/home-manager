@@ -19,6 +19,8 @@
       lspsaga-nvim
       # Snippet manager
       luasnip
+      # Github copilot
+      copilot-lua
     ];
   };
 
