@@ -17,6 +17,9 @@ set_keymap("n", "H", "^", "Move to start of line")
 set_keymap("n", "L", "$", "Move to end of line")
 set_keymap("n", "<leader>r", ":%s/\\r//g<CR>")
 
+-- Skkeleton
+set_keymap('i', '<c-j>', '<Plug>(skkeleton-enable)')
+
 -- Quickfix navigation
 set_keymap("n", "<leader>j", ":cnext<CR>", "Next quickfix item")
 set_keymap("n", "<leader>k", ":cprev<CR>", "Previous quickfix item") 

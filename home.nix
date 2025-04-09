@@ -23,7 +23,7 @@
     unzip
     jq
     delta
-    claude-code
+    # claude-code
     tree
     lazygit
     zoxide
