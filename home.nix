@@ -38,6 +38,7 @@
     typescript-language-server
     deno
     ruby
+    clang-tools
 
     # Misc Tools
     yt-dlp

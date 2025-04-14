@@ -33,6 +33,9 @@ lspconfig.denols.setup({
   end,
 })
 
+lspconfig.clangd.setup{}
+
+
 
 -- Lspsaga
 require("lspsaga").setup({
