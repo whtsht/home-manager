@@ -1,3 +1,5 @@
+require("nvim-autopairs").setup({})
+
 local cmp = require("cmp")
 
 cmp.setup({

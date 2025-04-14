@@ -31,6 +31,7 @@ in
       # Fuzzy finder
       fzf-lua
       # Autocomplete
+      nvim-autopairs
       nvim-cmp
       cmp-buffer
       cmp-path
