@@ -27,6 +27,7 @@
       uu  = "cd ../..";
       e   = "nvim";
       rm  = "trash-put";
+      l   = "exa";
     };
 
     initExtra = ''
