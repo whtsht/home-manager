@@ -15,7 +15,6 @@
     docker
     gh
     direnv
-    trash-cli
     awscli
     ssm-session-manager-plugin
     ecsk
@@ -41,7 +40,9 @@
     clang-tools
 
     # Misc Tools
+    trash-cli
     yt-dlp
+    marp-cli
   ];
 
   home.sessionVariables = {
