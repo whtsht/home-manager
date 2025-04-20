@@ -26,7 +26,7 @@
     tree
     lazygit
     zoxide
-    ollama-rocm
+    podman
 
     # Programming Language
     gcc
@@ -38,6 +38,7 @@
     deno
     ruby
     clang-tools
+    python314
 
     # Misc Tools
     trash-cli
