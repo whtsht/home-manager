@@ -39,6 +39,7 @@
     ruby
     clang-tools
     python314
+    go
 
     # Misc Tools
     trash-cli
