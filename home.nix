@@ -15,7 +15,7 @@
     docker
     gh
     direnv
-    awscli
+    awscli2
     ssm-session-manager-plugin
     ecsk
     zip
