@@ -40,11 +40,15 @@
     clang-tools
     python314
     go
+    wabt
+    wasmer
+    yaml-language-server
 
     # Misc Tools
     trash-cli
     yt-dlp
     marp-cli
+    duckdb
   ];
 
   home.sessionVariables = {
