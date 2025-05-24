@@ -49,6 +49,7 @@
     yt-dlp
     marp-cli
     duckdb
+    linuxKernel.packages.linux_zen.perf
   ];
 
   home.sessionVariables = {
