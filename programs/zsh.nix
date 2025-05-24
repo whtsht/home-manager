@@ -30,7 +30,7 @@
       l   = "exa";
     };
 
-    initExtra = ''
+    initContent = ''
       bindkey -d
       bindkey -e
 
