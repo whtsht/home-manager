@@ -51,6 +51,7 @@
     marp-cli
     duckdb
     linuxKernel.packages.linux_zen.perf
+    cmake
   ];
 
   home.sessionVariables = {
