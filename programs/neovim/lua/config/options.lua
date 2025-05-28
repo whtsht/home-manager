@@ -25,6 +25,7 @@ local options = {
     background = "dark",
     spell = true,
     spelllang = "en,cjk",
+    spellfile = vim.fn.expand("~/.vim/spell/en.utf-8.add"),
     splitbelow = true,
     splitright = true,
     termguicolors = true,
