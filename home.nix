@@ -4,7 +4,7 @@
   home.username = "toma";
   home.homeDirectory = "/home/toma";
 
-  home.stateVersion = "24.11";
+  home.stateVersion = "25.05";
 
   imports = [
     ./programs
