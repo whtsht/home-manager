@@ -27,6 +27,8 @@
     lazygit
     zoxide
     podman
+    duckdb
+    cmake
 
     # Programming Language
     gcc
@@ -46,12 +48,11 @@
     wasmtime
 
     # Misc Tools
+    texliveMedium
     trash-cli
     yt-dlp
     marp-cli
-    duckdb
     linuxKernel.packages.linux_zen.perf
-    cmake
   ];
 
   home.sessionVariables = {
