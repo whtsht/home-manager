@@ -28,6 +28,7 @@
     zoxide
     podman
     duckdb
+    gnumake
     cmake
 
     # Programming Language
