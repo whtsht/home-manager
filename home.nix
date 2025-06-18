@@ -49,7 +49,7 @@
     wasmtime
 
     # Misc Tools
-    texliveMedium
+    texliveTeTeX
     trash-cli
     yt-dlp
     marp-cli
