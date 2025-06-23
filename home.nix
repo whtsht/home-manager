@@ -47,6 +47,7 @@
     wasmer
     yaml-language-server
     wasmtime
+    chez
 
     # Misc Tools
     texliveFull
