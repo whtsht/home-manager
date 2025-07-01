@@ -57,7 +57,6 @@
     marp-cli
     linuxKernel.packages.linux_zen.perf
     google-cloud-sdk
-    claude-code
 
     # Microservices
     kubectl
