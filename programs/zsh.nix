@@ -28,6 +28,7 @@
       e   = "nvim";
       rm  = "trash-put";
       l   = "exa";
+      ccu = "npx ccusage@latest";
     };
 
     initContent = ''
@@ -38,6 +39,7 @@
 
       eval "$(starship init zsh)"
       eval "$(zoxide init zsh)"
+      eval "$(direnv hook zsh)"
 
       function open() {
         if [ $# != 1 ]; then

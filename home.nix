@@ -5,6 +5,7 @@
   home.homeDirectory = "/home/toma";
 
   home.stateVersion = "25.05";
+  nixpkgs.config.allowUnfree = true;
 
   imports = [
     ./programs
@@ -27,7 +28,6 @@
     lazygit
     zoxide
     podman
-    duckdb
     gnumake
     cmake
 
@@ -56,6 +56,7 @@
     marp-cli
     linuxKernel.packages.linux_zen.perf
     google-cloud-sdk
+    claude-code
 
     # Microservices
     kubectl
