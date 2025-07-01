@@ -30,6 +30,7 @@
     podman
     gnumake
     cmake
+    mariadb
 
     # Programming Language
     gcc
@@ -70,7 +71,7 @@
     FZF_DEFAULT_OPTS="--reverse";
     LD_LIBRARY_PATH="$NIX_LD_LIBRARY_PATH";
     NIXOS_OZONE_WL = "1";
-    PATH="$PATH:$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.cargo/bin";
+    PATH="$PATH:$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.cargo/bin:$HOME/.yarn/bin";
   };
 
   programs.home-manager.enable = true;
