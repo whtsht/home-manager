@@ -9,7 +9,7 @@
     ignores = [
       ".envrc"
       "/.direnv/"
-      ".claude/"
+      "/.claude/"
     ];
 
     extraConfig = {
