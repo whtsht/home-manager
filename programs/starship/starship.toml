@@ -15,6 +15,7 @@ $time\
 [hostname]
 ssh_only = true
 ssh_symbol = '🌐 '
+format = "$ssh_symbol$hostname"
 
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
