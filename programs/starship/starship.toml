@@ -12,6 +12,10 @@ $time\
 [ ](fg:#1d2230)\
 \n$character"""
 
+[hostname]
+ssh_only = true
+ssh_symbol = '🌐 '
+
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
 format = "[ $path ]($style)"
