@@ -1,5 +1,6 @@
 ---
 allowed-tools: Bash(basename "$PWD"),
+description: 方針に従い実装を行う
 ---
 
 ### 概要
