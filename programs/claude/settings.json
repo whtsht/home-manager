@@ -154,12 +154,7 @@
       "Bash(git init*)",
       "Bash(git worktree:*)",
 
-      "Bash(ls*)",
-      "Bash(ls -la*)",
-      "Bash(ls -l*)",
-      "Bash(ls -a*)",
-      "Bash(ls -lh*)",
-      "Bash(ls -la */)",
+      "Bash(ls:*)",
       "Bash(ll*)",
       "Bash(cat *)",
       "Bash(cat -n *)",
