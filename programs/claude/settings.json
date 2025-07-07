@@ -653,6 +653,7 @@
       "TodoRead()",
       "TodoWrite(**)",
       "Task(**)",
+      "List(**)",
       "Bash(claude *)",
       "Bash(claude config *)",
       "Bash(claude code *)"
