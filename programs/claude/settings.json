@@ -152,6 +152,7 @@
       "Bash(git blame *)",
       "Bash(git clone *)",
       "Bash(git init*)",
+      "Bash(git worktree:*)",
 
       "Bash(ls*)",
       "Bash(ls -la*)",
