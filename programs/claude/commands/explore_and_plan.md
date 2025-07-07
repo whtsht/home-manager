@@ -10,7 +10,7 @@ GitHub上のイシュー `#$ARGUMENTS` に対応する問題について取り�
 
 1. GitHub Issueの取得
    - イシュー `#$ARGUMENTS` を読み取り、課題の全体像と目的を把握すること
-     - コマンド： `gh issue view $ARGUMENTS`
+     - コマンド： `gh issue view $ARGUMENTS`、`gh issue view $ARGUMENTS --comments`
 
 2. 関連ファイル・リソースの調査
    - 画像やURLがあれば、その内容も確認してください
