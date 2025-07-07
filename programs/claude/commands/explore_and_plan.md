@@ -1,5 +1,4 @@
 ---
-allowed-tools: Bash(basename "$PWD"),
 description: 実装方針プランを考える
 ---
 
@@ -10,7 +9,6 @@ GitHub上のイシュー `#$ARGUMENTS` に対応する問題について取り�
 
 ### 注意事項
 
-- 以降 !`basename "$PWD"` は <プロジェクト名> と表現します
 - <>で囲われた内容はあなたが適切なものに読み変えてください
 - このステップでは、**コードは一切書かないでください**
 
@@ -18,12 +16,11 @@ GitHub上のイシュー `#$ARGUMENTS` に対応する問題について取り�
 ### 手順
 
 1. GitHub Issueの取得
-  a. <プロジェクト名>-mainディレクトリまたは<プロジェクト名>-masterディレクトリに移動する
-  b. イシュー `#$ARGUMENTS` を読み取り、課題の全体像と目的を把握すること
-    - コマンド： `gh issue view $ARGUMENTS`、`gh issue view $ARGUMENTS --comments`
+  - コマンド： `gh issue view $ARGUMENTS`、`gh issue view $ARGUMENTS --comments`
 
 2. 関連ファイル・リソースの調査
   - 画像やURLがあれば、その内容も確認してください
+  <!-- - リソースの調査は`gemini -p "<検索したい内容>"`を使ってください -->
 
 3. 実装方針の立案
   - イシューに対してどのような実装を行えば良いか考えてください
@@ -36,7 +33,7 @@ GitHub上のイシュー `#$ARGUMENTS` に対応する問題について取り�
 
 5. 実装方針をIssueにコメントする
    - 立案した計画は、対応するイシュー `#$ARGUMENTS` にコメントとして投稿してください
-     - コマンド：`gh issue comment $ARGUMENTS --body "コメント内容"`
+     - コマンド：`gh issue comment $ARGUMENTS --body "<コメント内容>"`
    - 後の工程で参照・再利用できるよう、詳細かつ明確にまとめてください
    - あなたがコメントしたことがわかるように、コメントの文頭に[Claude Code]と書いてください
 
