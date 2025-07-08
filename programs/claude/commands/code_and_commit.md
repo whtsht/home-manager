@@ -16,7 +16,7 @@ GitHub上のイシュー `#$ARGUMENTS` に対応する実装作業を行いま�
 ### 手順
 
 1. GitHub Issueおよびコメントの取得
-  b. `gh issue view #$ARGUMENTS`を実行して、`#$ARGUMENTS` に紐づくイシューとすべてのコメントを取得してください
+  b. `gh issue view $ARGUMENTS`を実行して、`#$ARGUMENTS` に紐づくイシューとすべてのコメントを取得してください
   c. 取得した情報を元に計画・議論の流れを把握すること
 
 2. 実装の開始
