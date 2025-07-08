@@ -487,5 +487,18 @@
       "Bash(exec > /dev/tcp/*)",
       "Bash(exec 3<>/dev/tcp/*)"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/scripts/check_command.sh"
+          }
+        ]
+      }
+    ]
   }
 }
