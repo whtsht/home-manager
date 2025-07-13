@@ -44,7 +44,7 @@ in
       # Snippet manager
       luasnip
       # Github copilot
-      copilot-lua
+      copilot-vim
       # Japanese Input
       denops-vim
       skkeleton
