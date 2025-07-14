@@ -29,6 +29,7 @@
       rm  = "trash-put";
       l   = "exa";
       ccu = "npx ccusage@latest";
+      dif = "npx difit .";
     };
 
     initContent = ''
